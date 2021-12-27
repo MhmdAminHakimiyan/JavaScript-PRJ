@@ -72,3 +72,24 @@ const inventors = [
   }, {});
 
   console.log(transportation);
+
+
+
+
+// const str = "(()()))()";
+// let arrA = [];
+// let arrB = [];
+
+// for (let i = 0; i <str.length ; i++){
+//   if(str[i] === "("){
+//     arrA.push(i);
+//   }
+//   if(str[i] === ")"  ){
+//     arrB.push(i);
+//   }
+
+// }
+
+
+
+// console.log(arrA , arrB);
