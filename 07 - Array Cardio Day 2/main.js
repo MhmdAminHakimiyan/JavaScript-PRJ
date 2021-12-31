@@ -24,3 +24,14 @@ const people = [
 
   const comment = comments.find(comment =>{ return comment.id === 823423});
   console.log(comment);
+
+  const index = comments.findIndex(comment => comment.id === 823423)
+
+  console.log(index);
+
+
+  const newComments = [...comments.slice(0,index) , ...comments.slice(index + 1)];
+
+  console.table(comments);
+  console.table(newComments);
+  
